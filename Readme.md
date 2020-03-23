@@ -13,7 +13,7 @@ The dataset i have wrangled and analysed is the tweet archive of Twitter user @d
 
 ### Assessing and cleaning Data
 Assessed them visually and programmatically for quality and tidiness issues. Detected 14 quality and 3 tideness issues.Cleaned the issues documented while assessing.
-* Run a loop to replace the null values with None in the archieves table 
+* Ran a loop to replace the null values with None in the archieves table 
 * Converted the the data types of tweet_id and timestamp column 
 * Replaced the single letters in the names column to None 
 * Converted the datatype of tweet_id column from integer to object 
@@ -21,8 +21,9 @@ Assessed them visually and programmatically for quality and tidiness issues. Det
 * Converted the datatypes of  Created_id to datetime, id and id_str to object 
 * Replaced the None values to empty strings and added the 4 columns of doggo,pupper,puppo,floofer into a single column called dog_category.
 * Dropped unecessary columns
-* Add 2 columns from the df_clean dataset to archieve data frame
-* join the dataframes to get a single dataframe twitter_archive_master.
+* Added 2 columns from the df_clean dataset to archieve data frame
+* Joined the dataframes to get a single dataframe twitter_archive_master.
+
 ### Analysis and Visualization
 The following were the steps taken in analysis and visualization of the wrangled data
 * categories of dogs with highest number of ratings
