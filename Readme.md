@@ -6,7 +6,7 @@ The dataset i have wrangled and analysed is the tweet archive of Twitter user @d
 ### Project Details
 
 ### Gathering data
-
+* Twitter_archive_enhanced.csv was Provided by Udacity and was loaded into a dataframe called df_archieve.
 * Using the tweet IDs in the WeRateDogs Twitter archive, i queried the Twitter API for each tweet's JSON data using Python's Tweepy library and stored each tweet's entire set of JSON data in a file called tweet_json.txt file.Then read this .txt file line by line into a pandas DataFrame with (at minimum) tweet ID, retweet count, and favorite count. 
 
 * The tweet image predictions, i.e., what breed of dog (or other object, animal, etc.)was present in each tweet according to a neural network. This file (image_predictions.tsv) was hosted on Udacity's which i downloaded programmatically using the Requests library and the followng url: https://d17h27t6h515a5.cloudfront.net/topher/2017/August/599fd2ad_image-predictions/image-predictions.tsv
