@@ -11,11 +11,15 @@ The dataset i have wrangled and analysed is the tweet archive of Twitter user @d
 
 * The tweet image predictions, i.e., what breed of dog (or other object, animal, etc.)was present in each tweet according to a neural network. This file (image_predictions.tsv) was hosted on Udacity's which i downloaded programmatically using the Requests library and the followng url: https://d17h27t6h515a5.cloudfront.net/topher/2017/August/599fd2ad_image-predictions/image-predictions.tsv
 
-### Assessing Data
-Assessed them visually and programmatically for quality and tidiness issues. Detected 14 quality and 3 tideness issues.
-
-### Cleaning data
-Cleaned the issues documented while assessing.
+### Assessing and cleaning Data
+Assessed them visually and programmatically for quality and tidiness issues. Detected 14 quality and 3 tideness issues.Cleaned the issues documented while assessing.
+* Run a loop to replace the null values with None in the archieves table 
+* Converted the the data types of tweet_id and timestamp column 
+* Replaced the single letters in the names column to None 
+* Converted the datatype of tweet_id column from integer to object 
+* Replaced the null values with None in the columns 
+* Converted the datatypes of  Created_id to datetime, id and id_str to object 
+* Replaced the None values to empty strings and added the 4 columns of doggo,pupper,puppo,floofer into a single column called dog_category.
 
 ### Analysis and Visualization
 The following were the steps taken in analysis and visualization of the wrangled data
