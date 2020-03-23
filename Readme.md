@@ -20,7 +20,9 @@ Assessed them visually and programmatically for quality and tidiness issues. Det
 * Replaced the null values with None in the columns 
 * Converted the datatypes of  Created_id to datetime, id and id_str to object 
 * Replaced the None values to empty strings and added the 4 columns of doggo,pupper,puppo,floofer into a single column called dog_category.
-
+* Dropped unecessary columns
+* Add 2 columns from the df_clean dataset to archieve data frame
+* join the dataframes to get a single dataframe twitter_archive_master.
 ### Analysis and Visualization
 The following were the steps taken in analysis and visualization of the wrangled data
 * categories of dogs with highest number of ratings
