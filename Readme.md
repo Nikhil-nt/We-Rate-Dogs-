@@ -23,13 +23,13 @@ Assessed them visually and programmatically for quality and tidiness issues. Det
 * Dropped unecessary columns
 * Added 2 columns from the df_clean dataset to archieve data frame
 * Joined the dataframes to get a single dataframe twitter_archive_master.
-
+* The wrangle report.pdf consists my wrangling efforts from the data
 ### Analysis and Visualization
 The following were the steps taken in analysis and visualization of the wrangled data
 * categories of dogs with highest number of ratings
 * categories with highest favorite_count
 * Plot the relationship between favorite count and rating numeraor of all 4 categories
-
+* The act report.pdf consists my insights from the data
 ### Requirements
 * Python
 * Numpy
